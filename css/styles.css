@@ -179,8 +179,7 @@ a:hover{
    background-color:#66BFBF;
    padding: 150px; 
    position: relative;
-   
-   
+   text-align:center; 
 }
 .contact-{
     padding: 5px 7px;
@@ -206,40 +205,10 @@ a:hover{
 }
 
 /*Media screen Settings*/
-    @media(min-width: 700px){
-    .butn{
-        padding: 10px;
-        float: left;
-        position:absolute;
-        left: 41%;  
-    }
-    .butn-2{
-        padding: 10px;
-        float: left;
-        position:absolute;
-        left: 49.5%;  
-    }}
-    @media(max-width: 1102px){
-        .butn{
-            padding: 10px;
-            float: left;
-            position:absolute;
-            left: 200px
-        }
-    }
+   
     @media (max-width: 700px){
         .title-img{
             transform: rotate(-4deg);
-        }
-        .butn{
-            padding: 10px;
-            position: relative;
-            left: 15px;
-        }
-        .butn-2{
-            padding: 0;
-            position: relative;
-            left: 0px;
         }
         .contact-d{
             padding-left: 10px;
