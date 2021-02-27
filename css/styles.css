@@ -1,0 +1,249 @@
+body{
+    font-family:"Montserrat";
+}
+h1,h2,h3{
+    font-family:'Montserrat', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+h3{
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: black;
+}
+hr{
+    margin: 0 auto;
+    color: black;
+    background-color: #66BFBF;
+    border-top: dotted;
+    width: 8%;
+    height:4px;
+    border-width: 7px;
+
+}
+div{
+    padding: 2%;
+    text-align: center;
+    
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    color: #8f8f8f;
+}
+/* Nav Bar */
+.navbar{
+    padding-bottom: 3rem;
+}
+
+.navbar-brand{
+    font-family: 'ubuntu';
+    font-size: 1.5rem;
+}
+
+.nav-item{
+    padding: 0 15px;
+}
+.nav-link{
+    font-size: 15px;
+    
+}
+
+/*Title section*/
+#title{
+    color: #fff;
+    background-color: #66BFBF;
+}
+.container-fluid{
+    padding: 0 15%;
+}
+
+.intro-title{
+    padding-top: 4.5rem;
+    
+}
+
+.cv:hover{
+    color:black;
+}
+.university-name{
+    font-weight: normal;
+}
+
+
+
+/* Download Button*/
+.download-button{
+    margin: 8% 3% 0 0;
+    padding: 5px 12px;
+}
+
+
+/*Title Image*/
+
+.row{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.col-lg-6{
+    padding-bottom: 20px;
+}
+.title-img{
+    margin-top: 3px;
+    margin-bottom: 5px;
+    width: 55%;
+    transform: rotate(17deg);
+   
+}
+
+
+
+/* Features*/
+#features{
+    margin-top: 0;
+    padding: 7% 15%;
+    color: #fff;
+    
+}
+.fas{
+    color: #309494;
+    padding-bottom: 0.6rem;
+}
+.fas:hover{
+    color: #66BFBF;
+}
+
+
+.features-detail{
+    color: #8f8f8f;
+    padding: 5%;
+}
+
+
+/*Testimonials*/
+#testimonials{
+    padding: 5% 15%;
+    text-align: center;
+    background-color: #66BFBF;
+    color: #fff;
+}
+
+.testimonial-image{
+    width: 10%;
+    height: 10%;
+    border-radius: 100%;
+    margin: 15px;
+
+}
+
+
+/*Press*/
+#press{
+    background-color: #66BFBF;
+    text-align: center;
+    padding-bottom: 1%;
+    color: #fff;
+}
+.testimonial-text{
+    font-size: 1.5rem;
+    padding: 0 10%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 40px 10px 50px;
+}
+
+/*Education section*/
+#education{
+    padding: 60px 100px;
+}
+.card-header{
+    padding: 10px;
+    margin: 0;
+    background-color: #66BFBF;
+}
+.card-body{
+    padding: 25px 10px;
+}
+
+.row{
+    margin-top: 0;
+}
+
+
+/*Call to action section*/
+#cta{
+   background-color:#66BFBF;
+   padding: 150px; 
+   position: relative;
+   
+   
+}
+.contact-{
+    padding: 5px 7px;
+}
+
+
+/*Footer*/
+#footer{
+    color: gray;
+    justify-content: center;
+}
+.footer-{
+    padding-bottom: 0;
+}
+.social{
+    color: black;
+    padding: 60px 8px 10px 8px ;
+}
+
+.social:hover{
+    color: #309494;
+    
+}
+
+/*Media screen Settings*/
+    @media(min-width: 700px){
+    .butn{
+        padding: 10px;
+        float: left;
+        position:absolute;
+        left: 41%;  
+    }
+    .butn-2{
+        padding: 10px;
+        float: left;
+        position:absolute;
+        left: 49.5%;  
+    }}
+    @media(max-width: 1102px){
+        .butn{
+            padding: 10px;
+            float: left;
+            position:absolute;
+            left: 200px
+        }
+    }
+    @media (max-width: 700px){
+        .title-img{
+            transform: rotate(-4deg);
+        }
+        .butn{
+            padding: 10px;
+            position: relative;
+            left: 15px;
+        }
+        .butn-2{
+            padding: 0;
+            position: relative;
+            left: 0px;
+        }
+        .contact-d{
+            padding-left: 10px;
+        }
+    }
+    
+
